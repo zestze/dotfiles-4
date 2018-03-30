@@ -1,0 +1,13 @@
+
+source $HOME/.vim/plug.vim
+
+set runtimepath^=~/.vim/bundle/ctrlp.vim
+
+if has ('gui_running')
+	syntax enable
+	set background=light
+	colorscheme solarized
+	set guioptions=aci
+else
+	colorscheme BlackSea
+endif
